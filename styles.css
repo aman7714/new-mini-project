@@ -1,0 +1,105 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+}
+.box{
+    padding: 15%;
+}
+.column{
+    width: 300px;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+#column1{
+   background-color: rgb(249, 136, 15);
+}
+
+#column2{
+    background-color: rgb(0, 130, 123);
+}
+
+#column3{
+   background-color: rgb(0, 60, 32);
+}
+
+img{
+    height: 30px;
+}
+.heading{
+    font-family:'Arial Narrow';
+    color: white;
+}
+
+div p{
+    color: rgba(255, 255, 255, 0.64);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-top: 10px;
+}
+
+.learn-more{
+    margin-top: 65px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+a{
+    background-color: white;
+    border-radius: 20px;
+    display: block;
+    padding: 10px;
+    width: 80px;
+    text-align: center;
+}
+
+
+#btn1{
+    color:  rgb(249, 136, 15);
+    border: 2px solid rgb(249, 136, 15);
+ }
+#btn2{
+    color: rgb(0, 130, 123);
+    border: 2px solid rgb(0, 130, 123);
+}
+#btn3{
+    color: rgb(0, 60, 32);
+    border: 2px solid rgb(0, 60, 32);
+}
+
+#btn1:hover{
+   background-color: rgb(249, 136, 15);
+   color: white;
+   border: 2px solid white;
+}
+#btn2:hover{
+    background-color: rgb(0, 130, 123);
+    color: white;
+    border: 2px solid white;
+}
+
+#btn3:hover{
+   background-color:rgb(0, 60, 32);
+   color: white;
+   border: 2px solid white;
+}
+.learn-more:hover{
+    cursor: pointer;
+}
+
+/* responsive*/
+@media (max-width: 767.9px) {
+      #container{
+        display: block;
+        width: auto;
+      }
+        
+      }
+
